@@ -14,7 +14,7 @@ import java.time.Instant;
 public class UsageLog {
     Long id;
     User user;
-    Project project;git --version
+    Project project;
     String action;
     Integer tokenUsed;
     Integer durationMs;
