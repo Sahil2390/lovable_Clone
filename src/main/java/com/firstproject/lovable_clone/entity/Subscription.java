@@ -1,5 +1,5 @@
 package com.firstproject.lovable_clone.entity;
-import com.firstproject.lovable_clone.SubscriptionStatus;
+import com.firstproject.lovable_clone.enums.SubscriptionStatus;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 
