@@ -3,7 +3,6 @@ package com.firstproject.lovable_clone.service;
 import com.firstproject.lovable_clone.dto.member.InviteMemberRequest;
 import com.firstproject.lovable_clone.dto.member.MemberResponse;
 import com.firstproject.lovable_clone.dto.member.UpdateMemberRoleRequest;
-import com.firstproject.lovable_clone.entity.ProjectMember;
 
 import java.util.List;
 
@@ -17,5 +16,5 @@ public interface ProjectMemberService {
     MemberResponse updateMemberRole(Long projectId, Long memberId, UpdateMemberRoleRequest request, Long userId);
 
 
-    MemberResponse deleteProjectMember(Long projectId, Long memberId, Long userId);
+    void removeProjectMember(Long projectId, Long memberId, Long userId);
 }
